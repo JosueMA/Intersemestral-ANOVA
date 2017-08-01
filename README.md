@@ -6,13 +6,15 @@ Aquí podrás encontrar todo el material del curso.
 Para instalar todos los paquetes que usaremos en el curso, copien y luego corran la siguiente serie de comandos en la consola de RStudio:
 
 ```
+# Función para instalar paquetes y cargarlos
+
 ipak <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
   if(length(new.pkg)) install.packages(new.pkg, dependencies = TRUE)
   sapply(pkg, require, character.only = TRUE)
 }
 
-# load packages
+# Cargar paquetes
 
 packages <- c("tidyverse", "psych", "foreign", "multcomp", "car", "mosaic", "statisticalModeling", "plotly", "ggthemes", "markdown", "rmarkdown", "shiny", "learnr", "WRS2")
 
