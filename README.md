@@ -20,7 +20,7 @@ packages <- c("tidyverse", "psych", "foreign", "multcomp", "car", "mosaic", "sta
 ipak(packages)
 ```
 
-**Nota:** Les recomendamos resolver TODO el script `intro_to_r.R` antes del día de mañana; les ayudará a entender mejor el código que usemos a lo largo de la semana. Si tienen alguna duda (e.g., no saben qué son las listas, vectores o matrices), pueden consultar la parte correspondiente en el curso introductorio https://www.datacamp.com/community/open-courses/introduccion-a-r#gs.esqkJnM donde viene una explicación más detallada y ejercicios similares al script.
+**Nota:** Les recomendamos resolver TODO el script `intro_to_r.R` antes del día de mañana; les ayudará a entender mejor el código que usemos a lo largo de la semana. Si tienen alguna duda (e.g., no saben qué son las listas, vectores o matrices), pueden consultar la parte correspondiente en el curso introductorio https://www.datacamp.com/community/open-courses/introduccion-a-r#gs.esqkJnM (dándole click a "Start Free Course") donde viene una explicación más detallada y ejercicios similares al script.
 
 ### Cuestionarios
 
