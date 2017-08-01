@@ -2,7 +2,7 @@
 
 Aquí podrás encontrar todo el material del curso.
 
-Para instalar todos los paquetes que usaremos en el curso, corran la siguiente serie de comandos en su consola de RStudio:
+Para instalar todos los paquetes que usaremos en el curso, copien y luego corran la siguiente serie de comandos en la consola de su RStudio:
 
 ```
 ipak <- function(pkg){
