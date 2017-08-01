@@ -20,7 +20,7 @@
 	* Homosedasticidad
 	* Distribución normal
 	* ¿Qué hacer cuando no se cumplen?
-4. Modelo Lineal
+4. Modelo Lineal (ML)
 	* Nociones de línea recta 
 		* Ecuación de la línea recta
 		* Intercepto y pendiente
