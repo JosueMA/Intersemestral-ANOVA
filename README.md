@@ -36,6 +36,8 @@ https://goo.gl/forms/Xjos2ltfkRzzgSkM2
 * Personality Project (`psych`): http://personality-project.org/r/psych/
 * Curso Introductiorio a R: https://www.datacamp.com/community/open-courses/introduccion-a-r#gs.esqkJnM
 * Página para explorar paquetes disponibles (se recomienda explorar por tarea): https://www.rdocumentation.org
+* Página para encontrar soluciones rápidas para tareas que quieran realizar en R: http://www.statmethods.net
+* ¿Tienen problemas con la instalación o funciones y no saben qué hacer? Sitio útil para aclarar dudas: https://stackoverflow.com
 
 **Contacto:**
 
