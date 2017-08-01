@@ -7,17 +7,16 @@ Para instalar todos los paquetes que usaremos en el curso, copien y luego corran
 
 ```
 # Función para instalar paquetes y cargarlos
-
 ipak <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
   if(length(new.pkg)) install.packages(new.pkg, dependencies = TRUE)
   sapply(pkg, require, character.only = TRUE)
 }
 
-# Cargar paquetes
-
+# Paquetes a los cuales aplicar la función
 packages <- c("tidyverse", "psych", "foreign", "multcomp", "car", "mosaic", "statisticalModeling", "plotly", "ggthemes", "markdown", "rmarkdown", "shiny", "learnr", "WRS2")
 
+# Uso de la función
 ipak(packages)
 ```
 
