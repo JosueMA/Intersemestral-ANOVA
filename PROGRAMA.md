@@ -48,7 +48,7 @@
 	* Comparaciones planeadas
 	* Pruebas Post-Hoc 
 	* ANOVA Factorial
-7. Desarrollos Actuales de inferencia estadística
+7. Desarrollos Actuales en inferencia estadística
 	* Estimación vía simulación (bootstrapping, permutaciones)
 	* Machine Learning 
 	* Métodos robustos
