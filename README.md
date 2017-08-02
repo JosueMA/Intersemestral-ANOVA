@@ -38,6 +38,7 @@ https://goo.gl/forms/Xjos2ltfkRzzgSkM2
 * Página para explorar paquetes disponibles (se recomienda explorar por tarea): https://www.rdocumentation.org
 * Página para encontrar soluciones rápidas para tareas que quieran realizar en R: http://www.statmethods.net
 * ¿Tienen problemas con la instalación o funciones y no saben qué hacer? Sitio útil para aclarar dudas: https://stackoverflow.com
+* ¿Quieren hacer gráficas geniales con ggplot2? Aquí una lista muy completa de 50 ejemplos con su respectivo código: http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
 
 **Contacto:**
 
