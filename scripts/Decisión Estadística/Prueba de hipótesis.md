@@ -9,10 +9,19 @@ http://shinyapps.org/showapp.php?app=http://lmpp10e-mucesm.srv.mwn.de:3838/felix
 
 ## Prueba de hipótesis
 
+http://shiny.stat.calpoly.edu/t_Test/
+
+$$familywise error = 1 − 0.95^n$$
 
 ## Teoría de detección de señales
 
 * Presentación de Felisa
+
+**Resumen:**
+
+![](images/pregnant.png)
+![](images/pse.jpg)
+http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00762/full
 
 https://apps4teaching.shinyapps.io/SignalDetection/
 http://shiny.albany.edu/stat/betaprob/
