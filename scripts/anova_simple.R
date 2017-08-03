@@ -3,15 +3,16 @@ library(statisticalModeling)
 library(psych)
 library(car)
 
-# Leer datos
+# Ajustar directorio de trabajo ####
+# Leer datos #######
 dat <- read.delim("Viagra.dat")
 
-# Factor
+# Factor #####
 dat$dose <- factor(dat$dose, 
                    levels = c(1, 2, 3),
                    labels = c("Placebo", "Dosis Baja", "Dosis Alta"))
 
-## Descriptivos
+## Descriptivos ####
 
 # Datos
 describe(dat)
@@ -19,7 +20,7 @@ describe(dat)
 # Descriptivos por grupo
 describeBy(dat$libido, group = dat$dose, mat = TRUE)
 
-## Gráficos
+## Gráficos #####
 
 # Boxplots
 ggplot(dat, aes(x = dose, y = libido, fill = dose)) +
@@ -36,7 +37,7 @@ ggplot(dat, aes(x = dose, y = libido, fill = dose)) +
   geom_violin(alpha = 0.2)
 
 
-## Previos
+## Previos ####
 
 # Homogeneidad de varianzas
 leveneTest(libido ~ dose, data = dat)
@@ -45,7 +46,6 @@ leveneTest(libido ~ dose, data = dat)
 contrasts(dat$dose) <- cbind(c(0, 0, 1), c(0, 1, 0))
 
 ## Modelo
-
 mod <- lm(libido ~ dose, data = dat)
 
 # Coeficientes
@@ -63,9 +63,33 @@ plot(mod)
 par(mfrow = c(1, 1))
 
 # Predicciones del modelo
-p_mod <- evaluate_model(mod, data = dat)
+(p_mod <- evaluate_model(mod, data = dat))
 
-## Comparaciones Post-Hoc
+## Comparaciones planeadas ####
+
+summary(mod)
+
+contraste1 <- c(-2, 1, 1)
+contraste2 <- c(0, -1, 1)
+
+contrasts(p_mod$dose) <- cbind(contrast1, contrast2)
+contrasts(p_mod$dose) <- cbind(c(-2, 1, 1), c(0, -1, 1))
+viagra_planeado <- aov(libido ~ dose, data = p_mod)
+summary.lm(viagra_planeado)
+
+contrasts(p_mod$dose) <- contr.poly(3)
+viagraTrend <- aov(libido ~ dose, data = p_mod)
+summary.lm(viagraTrend)
+
+contrasts(p_mod$dose) <- contr.helmert(3)
+viagraModel2 <- aov(libido ~ dose, data = p_mod)
+summary.lm(viagraModel2)
+
+contrasts(p_mod$dose)<-contr.treatment(3, base = 2)
+viagraModel3 <- aov(libido~dose, data = p_mod )
+summary.lm(viagraModel3)
+
+## Comparaciones Post-Hoc ####
 
 # Tukey
 TukeyHSD(mod)
