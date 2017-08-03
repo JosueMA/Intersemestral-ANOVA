@@ -41,6 +41,7 @@ https://goo.gl/forms/Xjos2ltfkRzzgSkM2
 * ¿Quieren hacer gráficas geniales con ggplot2? Aquí una lista muy completa de 50 ejemplos con su respectivo código: http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
 * Otra página con gráficas geniales y algunas visualizaciones artísticas: http://www.r-graph-gallery.com
 * Galería de los principales tipos de documentos que pueden crear con RMarkdown: http://rmarkdown.rstudio.com/gallery.html
+* Si les interesa crear archivos PDF, antes deben de instalar LaTeX en su computadora: https://www.latex-project.org/get/
 
 **Contacto:**
 
