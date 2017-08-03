@@ -1,6 +1,9 @@
 ---
 title: "Supuestos paramétricos"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -33,7 +36,7 @@ ggplot(ox_ob, aes(x = Concentracion, y = Oxitocina)) +
 
 ggplot(ox_ob, aes(x = Concentracion, y = Oxitocina)) +
   geom_point() +
-  geom_smooth(method = "lm", se = FALSE) +
+  geom_smooth(method = "lm", se = TRUE) +
   theme_bw()
 
 
