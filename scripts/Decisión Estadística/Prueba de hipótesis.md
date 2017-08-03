@@ -11,7 +11,7 @@ http://shinyapps.org/showapp.php?app=http://lmpp10e-mucesm.srv.mwn.de:3838/felix
 
 http://shiny.stat.calpoly.edu/t_Test/
 
-$$familywise error = 1 − 0.95^n$$
+$familywise error = 1 − 0.95^n$
 
 ## Teoría de detección de señales
 
