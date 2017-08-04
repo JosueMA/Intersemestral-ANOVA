@@ -72,7 +72,7 @@ summary(mod)
 contraste1 <- c(-2, 1, 1)
 contraste2 <- c(0, -1, 1)
 
-contrasts(p_mod$dose) <- cbind(contrast1, contrast2)
+contrasts(p_mod$dose) <- cbind(contraste1, contraste2)
 contrasts(p_mod$dose) <- cbind(c(-2, 1, 1), c(0, -1, 1))
 viagra_planeado <- aov(libido ~ dose, data = p_mod)
 summary.lm(viagra_planeado)
