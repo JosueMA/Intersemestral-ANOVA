@@ -24,10 +24,10 @@ ipak(packages)
 
 ### Cuestionarios
 
+* Primer día:
 https://goo.gl/forms/Xjos2ltfkRzzgSkM2
 
-* Final
-
+* Final:
 https://goo.gl/forms/mqSQxp0Gw91O3JJy2
 
 
