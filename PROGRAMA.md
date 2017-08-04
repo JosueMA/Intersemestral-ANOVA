@@ -13,6 +13,7 @@
 		* Gráfico de barras 
 		* Histograma 
 		* Diagrama de caja
+		* Gráfica de violín
 3. Supuestos paramétricos
 	* ¿Por qué son importantes los supuestos? 
 	* Aditividad y Linealidad
@@ -45,13 +46,12 @@
 	* ANOVA para comparar medias de múltiples grupos
 	* ANOVA como caso particular de ML 
 	* Implementación e interpretación de ANOVA
-	* Comparaciones planeadas
+	* Comparaciones planeadas (Contrastes)
 	* Pruebas Post-Hoc 
 	* ANOVA Factorial
 7. Desarrollos Actuales en inferencia estadística
-	* Estimación vía simulación (bootstrapping, permutaciones)
-	* Machine Learning 
-	* Métodos robustos
+	* Métodos robustos y estimación vía simulación (bootstrapping, permutaciones)
+	* Machine Learning
 	* Estadística Bayesiana
 
 ***
