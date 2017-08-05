@@ -26,13 +26,10 @@ https://onedrive.live.com/?authkey=%21AAZ9qH8p4t8eVAs&id=263402B79597D013%213226
 
 ### Cuestionarios
 
-* Primer día:
-https://goo.gl/forms/Xjos2ltfkRzzgSkM2
-
-* **Final**:
+* **Retroalimentación del curso:**:
 https://goo.gl/forms/mqSQxp0Gw91O3JJy2
 
-* **Encuesta oficial de la Facultad**
+* **Encuesta oficial de la Facultad:**
 http://132.248.25.192/encuestas/index.php/474694/lang-es-MX
 
 
