@@ -24,7 +24,7 @@ ipak(packages)
 
 ### Cuestionarios
 
-* **Retroalimentación del curso:**:
+* **Retroalimentación del curso:**
 https://goo.gl/forms/mqSQxp0Gw91O3JJy2
 
 * **Encuesta oficial de la Facultad:**
