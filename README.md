@@ -3,7 +3,7 @@
 Aquí podrás encontrar todo el material del curso.
 ***
 
-Para instalar todos los paquetes que usaremos en el curso, copien y luego corran la siguiente serie de comandos en la consola de RStudio:
+Para instalar todos los paquetes que usaremos a lo largo del curso, copien y luego corran la siguiente serie de comandos en la consola de RStudio:
 
 ```
 # Función para instalar paquetes y cargarlos
@@ -13,7 +13,7 @@ ipak <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 }
 
-# Paquetes a los cuales aplicar la función
+# Paquetes con los cuales usar la función
 packages <- c("tidyverse", "psych", "foreign", "multcomp", "car", "mosaic", "statisticalModeling", "plotly", "ggthemes", "markdown", "rmarkdown", "shiny", "learnr", "WRS2", "QuantPsyc", "datasauRus", "caret")
 
 # Uso de la función
