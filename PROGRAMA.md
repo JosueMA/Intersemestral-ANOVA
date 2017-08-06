@@ -46,9 +46,12 @@
 	* ANOVA para comparar medias de múltiples grupos
 	* ANOVA como caso particular de ML 
 	* Implementación e interpretación de ANOVA
-	* Decisión estadística
-	* Comparaciones planeadas (Contrastes)
-	* Pruebas Post-Hoc 
+	* Contraste de hipótesis y decisión estadística en ANOVA
+	  * Análisis de errores tipo I y II
+	  * HARKing y 'crisis' de reproducibilidad en psicología
+	  * Importancia del diseño de investigación y el tamaño del efecto
+	  * Comparaciones planeadas (Contrastes)
+	  * Pruebas Post-Hoc 
 	* ANOVA Factorial
 7. Desarrollos Actuales en inferencia estadística
 	* Métodos robustos y estimación vía simulación (bootstrapping, permutaciones)
