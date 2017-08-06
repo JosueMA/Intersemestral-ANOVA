@@ -46,6 +46,7 @@ http://132.248.25.192/encuestas/index.php/474694/lang-es-MX
 * Otra página con gráficas geniales y algunas visualizaciones artísticas: http://www.r-graph-gallery.com
 * Galería de los principales tipos de documentos que pueden crear con RMarkdown: http://rmarkdown.rstudio.com/gallery.html
 * Si les interesa crear archivos PDF, antes deben de instalar LaTeX en su computadora: https://www.latex-project.org/get/
+* Si les interesó Teoría de Detección de Señales, aquí un artículo no denso de su aplicación para hablar de pseudociencia: http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00762/full
 * Shiny para jugar un poco con ANOVA: https://utsds.shinyapps.io/ANOVAVariance/
 
 **Contacto:**
