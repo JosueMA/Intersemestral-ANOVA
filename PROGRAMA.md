@@ -19,7 +19,7 @@
 	* Aditividad y Linealidad
 	* Independencia de los errores 
 	* Homosedasticidad
-	* Distribución normal
+	* ¿Distribución normal?
 	* ¿Qué hacer cuando no se cumplen?
 4. Modelo Lineal (ML)
 	* Nociones de línea recta 
