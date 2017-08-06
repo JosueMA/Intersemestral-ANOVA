@@ -46,6 +46,7 @@
 	* ANOVA para comparar medias de múltiples grupos
 	* ANOVA como caso particular de ML 
 	* Implementación e interpretación de ANOVA
+	* Decisión estadística
 	* Comparaciones planeadas (Contrastes)
 	* Pruebas Post-Hoc 
 	* ANOVA Factorial
