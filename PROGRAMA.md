@@ -49,8 +49,8 @@
 	* Implementación e interpretación de ANOVA
 	* Contraste de hipótesis y decisión estadística en ANOVA
 	  * Análisis de errores tipo I y II
+	  * Importancia del diseño de investigación y su relación con tamaño del efecto
 	  * HARKing y 'crisis' de reproducibilidad en psicología
-	  * Importancia del diseño de investigación y el tamaño del efecto
 	  * Comparaciones planeadas (Contrastes)
 	  * Pruebas Post-Hoc 
 	* ANOVA Factorial
