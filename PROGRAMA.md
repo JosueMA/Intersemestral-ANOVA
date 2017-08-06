@@ -48,7 +48,7 @@
 	* ANOVA como caso particular de ML 
 	* Implementación e interpretación de ANOVA
 	* Contraste de hipótesis y decisión estadística en ANOVA
-	  * Teoría de Detección de Señales
+	  * Teoría de Detección de Señales 
 	  * Análisis de errores tipo I y II
 	  * Importancia del diseño de investigación y su relación con tamaño del efecto
 	  * HARKing y 'crisis' de reproducibilidad en psicología
