@@ -1,7 +1,7 @@
 # PROGRAMA
 
 1. Introducción a estadística
-        * ¿Qué es la estadística?
+	* ¿Qué es la estadística?
 	* ¿Por qué necesitamos a la estadística en investigación?
 	* Tipos de variables
 	* Muestra, Población y estimadores
