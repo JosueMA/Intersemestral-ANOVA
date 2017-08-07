@@ -2,7 +2,7 @@
 
 1. Introducción a estadística
 	* ¿Qué es la estadística?
-	* ¿Por qué necesitamos a la estadística en investigación?
+	* ¿Por qué necesitamos estadística en investigación?
 	* Tipos de variables
 	* Muestra, Población y estimadores
 	* Estructura general de las pruebas estadísticas
